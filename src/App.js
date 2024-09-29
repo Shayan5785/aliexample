@@ -11,14 +11,14 @@ import { ContactUs } from './components/ContactUs'
 const App = () => {
 
   return (
-    <div>
+    <div className='bg-[#fffce5]'>
       <Navbar />
       <Hero />
       <Container />
       <Testimonials />
       <BadgeContainer />
+      <ContactUs />
       <Footer />
-
     </div>
   )
 }
